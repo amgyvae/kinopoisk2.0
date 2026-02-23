@@ -62,8 +62,8 @@
     ```bash
     brew services start redis  # Mac
 
-    Миграции и запуск:
-    ```bash
+5. **Миграции и запуск:**
+   ```bash
     python manage.py migrate
     python manage.py runserver
 
