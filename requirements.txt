@@ -1,0 +1,8 @@
+asgiref==3.11.1
+Django==6.0.2
+django-ratelimit==4.1.0
+django-redis==6.0.0
+djangorestframework==3.16.1
+pillow==12.1.1
+redis==7.2.0
+sqlparse==0.5.5

@@ -1,0 +1,14 @@
+{% extends 'movies/base.html' %} {% block content %}
+<div class="row">
+  <div class="col-md-4 offset-md-4">
+    <h2 class="text-center">Login</h2>
+    <div class="card shadow-sm p-4">
+      <form method="post">
+        {% csrf_token %} {{ form.as_p }}
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+      </form>
+      <p class="mt-3 text-center">No account? Ask the admin.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
